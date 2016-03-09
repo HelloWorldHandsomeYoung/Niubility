@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  NiubilityApp
+//
+//  Created by 吕阳 on 16/3/1.
+//  Copyright © 2016年 DeveloperYoung. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+SGExtension.h"
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+
+//CoreData
+#import <CoreData/CoreData.h>
+//LeanCloud
+#import <AVOSCloud/AVOSCloud.h>
+#import <AVOSCloudIM/AVOSCloudIM.h>
+//短信验证码
+#import <SMS_SDK/SMSSDK.h>
+
+#import <SVProgressHUD.h>
+
+#define SGScreenW [UIScreen mainScreen].bounds.size.width
+#define SGScreenH [UIScreen mainScreen].bounds.size.height
+
+#pragma mark - tableViewCell 的Identifier
+#define hotCell @"HotCell"
+#define homeCell @"HomeCell"
+#define nearCell @"NearCell"
+
+#endif /* PrefixHeader_pch */
